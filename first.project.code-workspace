@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "PRO",
+			"path": "../PRO"
+		}
+	]
+	,
+	"settings": {
+		"window.title": "Mathias Projekt"
+	
+	
+	}
+}
