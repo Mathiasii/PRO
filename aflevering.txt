@@ -1,2 +1,0 @@
-https://github.com/Mathiasii/PRO/blob/master/lab-printing.ipynb
-https://github.com/Mathiasii/PRO/blob/master/lab-strings.ipynb
