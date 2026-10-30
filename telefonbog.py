@@ -13,7 +13,7 @@ def all_contacts():
     print(contacts)
 
 def find_contact():
-    """ tjekker om navnet er der og giver nummeret """
+    """ checks name and number if it's in it gives that name and number """
     search = input("Intast navn: ")
     if search in contacts:
         print(contacts[search])
