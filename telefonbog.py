@@ -25,7 +25,7 @@ def add_contact():
     name = input("Indtast navn: ")
     number = input("Indtast nummer: ")
     contacts[name] = number
-    print(f"Kontact {name} tilføjet med nummeret {number}")
+    print(f"Kontakt {name} tilføjet med nummeret {number}")
     
 
 while True:
@@ -48,14 +48,3 @@ while True:
     if choice == "4":
         goodbye()
         break
-
-
-
-
-
-
-
-
-    
-
-    
