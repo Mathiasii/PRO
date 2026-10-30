@@ -5,17 +5,27 @@ contacts = {
 }
 
 def goodbye():
+    """ prints the text beneath """
     print("Thanks for havng used the telefonbog")
 
 def all_contacts():
-    print(*contacts)
+    """ prints all contacts """
+    print(contacts)
 
 def find_contact():
+    """ tjekker om navnet er der og giver nummeret """
     search = input("Intast navn: ")
     if search in contacts:
         print(contacts[search])
     else:
         print("Not in contacts")
+
+def add_contact():
+    """ tilføjer et navn og nummer til dictionary """
+    name = input("Enter name: ")
+    number = input("Enter number: ")
+    contacts[name] = number
+    print(f"Contact {name} added with number {number}")
     
 
 while True:
@@ -25,6 +35,9 @@ while True:
     print("4 Exit")
     choice = input("Choose an option: ")
 
+    if choice == "1":
+        add_contact()
+    
     if choice == "2":
         find_contact()
 
