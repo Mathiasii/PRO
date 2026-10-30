@@ -22,10 +22,10 @@ def find_contact():
 
 def add_contact():
     """ tilføjer et navn og nummer til dictionary """
-    name = input("Enter name: ")
-    number = input("Enter number: ")
+    name = input("Indtast navn: ")
+    number = input("Indtast nummer: ")
     contacts[name] = number
-    print(f"Contact {name} added with number {number}")
+    print(f"Kontact {name} tilføjet med nummeret {number}")
     
 
 while True:
