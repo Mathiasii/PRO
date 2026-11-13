@@ -20,11 +20,11 @@ def find_contact(name):
         print("Navnet er ikke i telefonbogen")
 
 def add_contact():
-    """ tilføjer et navn og nummer til dictionary """
+    """ adds a name and number to dictionary """
     name = input("Indtast navn: ")
     number = input("Indtast nummer: ")
 
-    ok, message, cleaned = validate_contact(number)
+    ok, message, cleaaned = validate_contact(number)
     if not ok:
             print(message)
             return
